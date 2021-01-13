@@ -257,11 +257,12 @@ html {
   padding: 1rem;
 }
 .slider-button-container {
+  position: absolute;
   display: flex;
   justify-content: flex-end;
   z-index: 2;
-  transform: translateY(-5rem);
-  transform: translateX(-24rem);
+  right: 53rem;
+  bottom: 12rem;
 }
 
 /* fifthSection */
