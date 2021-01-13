@@ -4,8 +4,9 @@ const next = document.querySelector(".next");
 const prev = document.querySelector(".prev");
 const slides = document.querySelector(".slide");
 let index = 0;
+
 btn.addEventListener("click", () => {
-  if (div.style.display == "none") {
+  if (div.style.display != "flex") {
     div.style.display = "flex";
     btn.innerHTML = "Hide";
   } else {
