@@ -230,6 +230,11 @@ html {
   display: none;
 }
 
+.fourth-container {
+  position: relative;
+  padding: 6rem 0;
+}
+
 .text-slider h2 {
   text-align: left;
   font: normal normal bold 3.5rem/4.8rem Inter;
@@ -241,7 +246,8 @@ html {
   letter-spacing: 0.44px;
   color: #747474;
 }
-.text-slider button {
+.prev,
+.next {
   margin-left: -2rem;
   height: 1.5rem;
   width: 8rem;
@@ -249,6 +255,13 @@ html {
   outline: none;
   background: transparent;
   padding: 1rem;
+}
+.slider-button-container {
+  display: flex;
+  justify-content: flex-end;
+  z-index: 2;
+  transform: translateY(-5rem);
+  transform: translateX(-24rem);
 }
 
 /* fifthSection */
